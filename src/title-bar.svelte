@@ -110,6 +110,6 @@ const dispatch = createEventDispatcher()
     left: env(titlebar-area-x, 0);
     top: env(titlebar-area-y, 0);
     width: env(titlebar-area-width, 100%);
-    height: env(titlebar-area-height, 33px);
+    height: env(titlebar-area-height, 32px);
   }
 </style>
