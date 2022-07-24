@@ -1,5 +1,5 @@
 <h1 align="center">
-	Title Bar
+	Universal Title Bar
 </h1>
 <p align="center">
   <img src="./docs/show.gif" alt="show"><br>
