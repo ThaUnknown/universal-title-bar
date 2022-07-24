@@ -26,6 +26,7 @@ new BrowserWindow({
   /// ...
 })
 ```
+This component uses $$restProps, which means you can pass any property to the root div, like style, class etc.
 ## Functions:
 ```jsx
 import titlebar from 'universal-title-bar'

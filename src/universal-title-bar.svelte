@@ -29,7 +29,7 @@ const dispatch = createEventDispatcher()
 <!-- eslint-disable-next-line svelte/valid-compile -->
 <svelte:options tag='universal-title-bar' />
 {#if !hidden}
-  <div class='universal-title-bar {$$restProps.class || ''}'>
+  <div {...$$restProps} class='universal-title-bar {$$restProps.class || ''}'>
     <div class='w-full h-full d-flex'>
       <div class='d-flex w-full draggable h-full align-items-center'>
         <img src={image || document.querySelector('link[rel="icon"]')?.href} alt='ico' />
