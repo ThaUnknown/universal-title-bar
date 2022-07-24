@@ -27,9 +27,9 @@ const dispatch = createEventDispatcher()
 </script>
 
 <!-- eslint-disable-next-line svelte/valid-compile -->
-<svelte:options tag='title-bar' />
+<svelte:options tag='universal-title-bar' />
 {#if !hidden}
-  <div class='title-bar {$$restProps.class || ''}'>
+  <div class='universal-title-bar {$$restProps.class || ''}'>
     <div class='w-full h-full d-flex'>
       <div class='d-flex w-full draggable h-full align-items-center'>
         <img src={image || document.querySelector('link[rel="icon"]')?.href} alt='ico' />
@@ -105,7 +105,7 @@ const dispatch = createEventDispatcher()
   path {
     fill: currentColor;
   }
-  .title-bar {
+  .universal-title-bar {
     /* Use the environment variable with a fallback. */
     left: env(titlebar-area-x, 0);
     top: env(titlebar-area-y, 0);

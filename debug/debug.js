@@ -1,4 +1,4 @@
-import App from '../src/title-bar.svelte'
+import App from '../src/universal-title-bar.svelte'
 
 const app = new App({
   target: document.querySelector('div'),

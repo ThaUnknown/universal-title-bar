@@ -1,6 +1,6 @@
 {
-  "name": "title-bar",
-  "short_name": "title-bar",
+  "name": "universal-title-bar",
+  "short_name": "universal-title-bar",
   "start_url": ".",
   "display": "fullscreen",
   "display_override": ["window-controls-overlay"],

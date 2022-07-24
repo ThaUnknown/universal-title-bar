@@ -1,1 +1,1 @@
-export * from './title-bar.svelte'
+export * from './universal-title-bar.svelte'

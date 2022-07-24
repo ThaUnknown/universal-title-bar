@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     build: {
       lib: {
         entry: './src/main.js',
-        name: 'title-bar'
+        name: 'universal-title-bar'
       }
     },
     plugins: null
@@ -23,13 +23,13 @@ export default defineConfig(({ mode }) => {
         compilerOptions: {
           customElement: true
         },
-        include: /title-bar\.svelte$/
+        include: /universal-title-bar\.svelte$/
       }),
       svelte({
         compilerOptions: {
           customElement: false
         },
-        exclude: /title-bar\.svelte$/
+        exclude: /universal-title-bar\.svelte$/
       })
     ]
   }

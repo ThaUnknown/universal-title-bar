@@ -1,5 +1,5 @@
 {
-  "name": "title-bar",
+  "name": "universal-title-bar",
   "version": "1.0.0",
   "description": "Lightweight, fast. Made with Svelte.",
   "files":[
@@ -7,7 +7,7 @@
     "src/*",
     "docs/"
   ],
-  "main": "src/title-bar.svelte",
+  "main": "src/universal-title-bar.svelte",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,10 +25,10 @@
   "author": "ThaUnknown",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThaUnknown/title-bar.git"
+    "url": "git+https://github.com/ThaUnknown/universal-title-bar.git"
   },
   "bugs": {
-    "url": "https://github.com/ThaUnknown/title-bar/issues"
+    "url": "https://github.com/ThaUnknown/universal-title-bar/issues"
   },
-  "homepage": "https://github.com/ThaUnknown/title-bar#readme"
+  "homepage": "https://github.com/ThaUnknown/universal-title-bar#readme"
 }

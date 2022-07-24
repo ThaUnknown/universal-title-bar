@@ -28,7 +28,7 @@ new BrowserWindow({
 ```
 ## Functions:
 ```jsx
-import titlebar from 'title-bar'
+import titlebar from 'universal-title-bar'
 import snap from 'snap-layout'
 
 <titlebar controls={true} autohide={true} hidden={false} title='My App' image='./image.png' on:close={() => { window.close() }} on:maximize={() => { handleMax() }} on:minimize={() => { handleMin() }}>
@@ -38,8 +38,8 @@ import snap from 'snap-layout'
 
 Or use as a web component outside Svelte:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/title-bar@latest/dist/title-bar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/universal-title-bar@latest/dist/universal-title-bar.js"></script>
 <body>
-  <title-bar controls="true"></title-bar>
+  <universal-title-bar controls="true"></universal-title-bar>
 </body>
 ```
