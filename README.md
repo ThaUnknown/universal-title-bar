@@ -32,13 +32,13 @@ import titlebar from 'universal-title-bar'
 import snap from 'snap-layout'
 
 <titlebar controls={true} autohide={true} hidden={false} title='My App' image='./image.png' on:close={() => { window.close() }} on:maximize={() => { handleMax() }} on:minimize={() => { handleMin() }}>
-  <snap-layout size='env(titlebar-area-height, 32px)' />
+  <snap size='env(titlebar-area-height, 32px)' />
 </titlebar>
 ```
 
 Or use as a web component outside Svelte:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/universal-title-bar@latest/dist/universal-title-bar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/universal-title-bar@latest/dist/universal-title-bar.mjs"></script>
 <body>
   <universal-title-bar controls="true"></universal-title-bar>
 </body>

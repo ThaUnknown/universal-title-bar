@@ -1,6 +1,6 @@
 {
   "name": "universal-title-bar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, fast. Made with Svelte.",
   "files":[
     "dist/*",
@@ -14,7 +14,16 @@
     "preview": "vite preview"
   },
   "keywords": [
-    "svelte"
+    "svelte",
+    "title-bar",
+    "titlebar",
+    "menu-bar",
+    "menubar",
+    "window controls",
+    "window-controls-overlay",
+    "electron",
+    "PWA",
+    "web-component"
   ],
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
