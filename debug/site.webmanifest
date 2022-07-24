@@ -3,6 +3,7 @@
   "short_name": "title-bar",
   "start_url": ".",
   "display": "fullscreen",
+  "display_override": ["window-controls-overlay"],
   "lang": "en-US",
   "orientation": "landscape",
   "background_color": "#191c20",
@@ -11,14 +12,9 @@
   "description": "",
   "icons": [
     {
-      "src": "./128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "./512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "./svelte.svg",
+      "sizes": "320x320",
+      "type": "image/svg+xml"
     }
   ]
 }

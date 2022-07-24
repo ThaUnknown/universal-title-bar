@@ -29,10 +29,10 @@ const dispatch = createEventDispatcher()
 <!-- eslint-disable-next-line svelte/valid-compile -->
 <svelte:options tag='title-bar' />
 {#if !hidden}
-  <div class='w-full title-bar' {...$$restProps}>
+  <div class='title-bar {$$restProps.class || ''}'>
     <div class='w-full h-full d-flex'>
       <div class='d-flex w-full draggable h-full align-items-center'>
-        <img src={image || document.querySelector('link[rel="icon"]').href} alt='ico' />
+        <img src={image || document.querySelector('link[rel="icon"]')?.href} alt='ico' />
         {title || doctitle}
       </div>
       <slot />
@@ -60,6 +60,21 @@ const dispatch = createEventDispatcher()
 {/if}
 
 <style>
+  .d-flex {
+    display: flex;
+  }
+  .align-items-center {
+    align-items: center;
+  }
+  .w-full {
+    width: 100%
+  }
+  .h-full {
+    height: 100%
+  }
+  .pointer {
+    cursor: pointer;
+  }
   .draggable {
     -webkit-app-region: drag;
     app-region: drag;
